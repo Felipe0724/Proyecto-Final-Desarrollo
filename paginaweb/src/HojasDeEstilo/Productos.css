@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.contenedorLista, .volver{
+   font-family: Impact, Verdana, Tahoma, sans-serif;
+   font-size: 20px;
+   display: inline-flex;
+   justify-content: flex-start;
+   margin-left: 50px;
+   margin-bottom: 80px;
+}
+
+li{
+    margin: 10px;
+    margin-top: 4px;
+    list-style-type: none;
+}
+
+h2, p, h3{
+    cursor: default;
+}
+
+.btn{
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    cursor: pointer;
+    background-color:rgba(244,139,0,255);
+    color:rgb(0, 0, 0);
+    border: 1px solid black;
+    font-family: Impact, Tahoma, sans-serif;
+    font-size:x-large;
+    border-radius: 13px;
+}
+
+.precio{
+    width: 25px;
+    height: 25px;
+    font-size: x-large;
+    font-family: Impact, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+.cantidad{
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.valor{
+    width: 25px;
+    height: 25px;
+    font-family: Impact, Tahoma, sans-serif;
+    font-size:x-large;
+    margin: 10px;
+    margin-left: 86px;
+}
+
+.targetas{
+    height: 460px;
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+}
+
+.targeta{
+    height: 350px;
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    transition: 300ms;
+}
+
+.imagen_bmw1, .imagen_yamahamt, .imagen_nmax155, .imagen_tracer1, .imagen_xtz250, .imagen_yamahar1, .imagen_yamahar6, .imagen_victoryblack,
+.imagen_bomber, .imagen_nitro125, .imagen_mrx125, .imagen_szrr{
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: #00a5ec;
+    transition: 300ms;
+    position: absolute;
+}
+
+.imagen_bmw1{
+    height: 350px;
+    width: 200px;
+    background-image: url(../imagenes/bmw1250.jpeg);
+    background-size: contain;
+    margin-bottom: 160px;
+    transition: 300ms;
+    background-color: transparent;
+    filter: drop-shadow(5px -4px 10px #FFF);
+}
+
+.imagen_yamahar1{
+    height: 350px;
+    width: 250px;
+    background-image: url(../imagenes/YZF-R1.png);
+    background-size: contain;
+    margin-bottom: 180px;
+    transition: 300ms;
+    background-color: transparent;
+    filter: drop-shadow(5px -4px 10px #FFF);
+}
+
+.imagen_yamahar6{
+    height: 350px;
+    width: 250px;
+    background-image: url(../imagenes/R6.webp);
+    background-size: contain;
+    margin-bottom: 112px;
+    transition: 300ms;
+    background-color: transparent;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_yamahamt{
+    height: 350px;
+    width: 250px;
+    background-image: url(../imagenes/MT-09.webp);
+    background-size: contain;
+    margin-bottom: 122px;
+    transition: 300ms;
+    background-color: transparent;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_xtz250{
+    height: 350px;
+    width: 250px;
+    background-image: url(../imagenes/XTZ250.png);
+    background-size: contain;
+    margin-bottom: 108px;
+    transition: 300ms;
+    background-color: transparent;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_victoryblack{
+    height: 350px;
+    width: 250px;
+    background-image: url(../imagenes/victory-black.png);
+    background-size: contain;
+    margin-bottom: 160px;
+    transition: 300ms;
+    background-color: transparent;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_bomber{
+    height: 350px;
+    width: 250px;
+    background-image: url(../imagenes/bomber-250.png);
+    background-size: contain;
+    margin-bottom: 106px;
+    transition: 300ms;
+    background-color: transparent;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_tracer1{
+    height: 350px;
+    width: 250px;
+    background-image: url(../imagenes/tracer9gt.jpg);
+    background-size: contain;
+    margin-bottom: 160px;
+    transition: 300ms;
+    background-color: transparent;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_nitro125{
+    height: 350px;
+    width: 250px;
+    background-image: url(../imagenes/nitro-125.png);
+    background-size: contain;
+    margin-bottom: 106px;
+    transition: 300ms;
+    background-color: transparent;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_szrr{
+    height: 350px;
+    width: 250px;
+    background-image: url(../imagenes/szrr_gris.png);
+    background-size: contain;
+    margin-bottom: 106px;
+    transition: 300ms;
+    background-color: transparent;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_mrx125{
+    height: 350px;
+    width: 250px;
+    background-image: url(../imagenes/mrx125.png);
+    background-size: contain;
+    margin-bottom: 106px;
+    transition: 300ms;
+    background-color: transparent;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.detalle{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-top: 150px;
+    z-index: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    transition: 300ms;
+}
+
+.targeta:hover{
+    transform: scale(1.1);
+}
+
+.targeta:hover .imagen_bmw1{
+    transform: translatey(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(../imagenes/bmw1250.jpeg);
+    filter: drop-shadow(5px -4px 10px #000);
+    margin-bottom: 200px;
+}
+
+.targeta:hover .imagen_bomber{
+    transform: translatey(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(../imagenes/bomber-250.png);
+    margin-bottom: 50px;
+}
+
+.targeta:hover .imagen_mrx125{
+    transform: translatey(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(../imagenes/mrx125.png);
+    margin-bottom: 20px;
+}
+
+.targeta:hover .imagen_nitro125{
+    width: 210px;
+    transform: translatey(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(../imagenes/nitro-125.png);
+    filter: drop-shadow(5px -4px 10px #000);
+    margin-bottom: -20px;
+}
+
+.targeta:hover .imagen_nmax155{
+    width: 220px;
+    transform: translatey(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(../imagenes/NMAX155.png);
+    filter: drop-shadow(5px -4px 10px #000);
+    margin-bottom: -10px;
+}
+
+.targeta:hover .imagen_szrr{
+    height: 400px;
+    width: 190px;
+    transform: translatey(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(../imagenes/szrr_gris.png);
+    filter: drop-shadow(5px -4px 10px #000);
+    margin-bottom: 0px;
+}
+
+.targeta:hover .imagen_tracer1{
+    width: 250px;
+    transform: translatey(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(../imagenes/tracer9gt.jpg);
+    filter: drop-shadow(5px -4px 10px #000);
+    margin-bottom: 15px;
+}
+
+.targeta:hover .imagen_victoryblack{
+    width: 172px;
+    transform: translatey(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(../imagenes/victory-black.png);
+    filter: drop-shadow(5px -4px 10px #000);
+    margin-bottom: 20px;
+}
+
+.targeta:hover .imagen_xtz250{
+    height: 400px;
+    width: 255px;
+    transform: translatey(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(../imagenes/XTZ250.png);
+    filter: drop-shadow(5px -4px 10px #000);
+    margin-bottom: 20px;
+}
+
+.targeta:hover .imagen_yamahamt{
+    height: 400px;
+    width: 255px;
+    transform: translatey(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(../imagenes/MT-09.webp);
+    filter: drop-shadow(5px -4px 10px #000);
+    margin-bottom: 20px;
+}
+
+.targeta:hover .imagen_yamahar1{
+    height: 400px;
+    width: 255px;
+    transform: translatey(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(../imagenes/YZF-R1.png);
+    filter: drop-shadow(5px -4px 10px #000);
+    margin-bottom: 20px;
+}
+
+.targeta:hover .imagen_yamahar6{
+    height: 400px;
+    width: 255px;
+    transform: translatey(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(../imagenes/R6.webp);
+    filter: drop-shadow(5px -4px 10px #000);
+    margin-bottom: 20px;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+p{
+    margin: auto;
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+}

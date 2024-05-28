@@ -1,0 +1,14 @@
+.contenedorMiCuenta{
+    color:white;
+}
+
+.fotoPersona{
+    border-radius: 40px;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.info{
+    margin-left: 50px;
+    cursor: default;
+}

@@ -1,0 +1,18 @@
+.Login,.micarrito,.micuenta,.productos{
+    width:150px;
+    margin:10px 20px; 
+    padding:10px; 
+    font-size:italic;
+    background-color:rgba(248, 247, 247);
+    color:rgb(0, 0, 0);
+    border: 1px solid black;
+    font-family: Impact, Tahoma, sans-serif;
+    border-radius: 13px;
+}
+
+.botones{
+    margin-left: 140px;
+    margin-top: -110px;
+    margin-bottom: 100px;
+    background-color: rgb(42, 128, 209);
+}
